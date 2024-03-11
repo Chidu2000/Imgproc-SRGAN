@@ -65,6 +65,20 @@ Modes
 train: This mode is used for training the model
 test: Test mode involves both evaluating the model's performance and potentially making predictions on unseen data.
 test-only: It is essentially the deployment phase where the model is deployed into a production environment or used for real-world applications.
+
+### Dataset Description
+
+In this report, we utilize three benchmark datasets for evaluating the performance of our image processing algorithms: Set5, Set14, and BSD100. Additionally, we employ the testing set of BSD300 for further validation. Below is a detailed description of each dataset:
+
+1. **Set5**: This dataset is a popular choice for benchmarking image super-resolution and other image processing tasks. It consists of five high-resolution images, each representing different types of scenes and textures. The images are often used to evaluate the quality of upscaling algorithms by comparing the reconstructed high-resolution images with the original ones.
+
+2. **Set14**: Similar to Set5, Set14 is another widely-used dataset for image processing evaluations, particularly in super-resolution. It contains 14 high-resolution images, covering a broader range of scenes and complexities. The diversity in this dataset helps in assessing the robustness and generalizability of image processing algorithms.
+
+3. **BSD100**: Part of the Berkeley Segmentation Dataset (BSDS), BSD100 includes 100 natural images for testing image segmentation, denoising, and super-resolution algorithms. The images are carefully selected to represent various real-world scenarios, making it a challenging dataset for evaluating the performance of image processing techniques.
+
+4. **Testing Set of BSD300**: The BSD300 dataset is an extension of BSD100, consisting of 300 images in total. For our purposes, we use the testing set of BSD300, which comprises 200 images not included in BSD100. This set provides a larger and more diverse collection of images for comprehensive testing and validation of our algorithms.
+
+These datasets are instrumental in our research as they provide a standard benchmark for evaluating the effectiveness and efficiency of our image processing methodologies. By comparing the results on these datasets, we can gauge the performance of our algorithms in various scenarios and ensure their applicability to real-world applications.
   
       
 
