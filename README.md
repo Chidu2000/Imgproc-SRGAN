@@ -66,9 +66,9 @@ train: This mode is used for training the model
 test: Test mode involves both evaluating the model's performance and potentially making predictions on unseen data.
 test-only: It is essentially the deployment phase where the model is deployed into a production environment or used for real-world applications.
 
-### Dataset Description
+## Dataset Description
 
-## Dataset 1 - Referred in Paper
+### Dataset 1 - Referred in Paper
 In this project, we utilize three benchmark datasets for evaluating the performance of our image processing algorithms: Set5, Set14, and BSD100. Additionally, we employ the testing set of BSD300 for further validation. Below is a detailed description of each dataset:
 
 1. **Set5**: This dataset is a popular choice for benchmarking image super-resolution and other image processing tasks. It consists of five high-resolution images, each representing different types of scenes and textures. The images are often used to evaluate the quality of upscaling algorithms by comparing the reconstructed high-resolution images with the original ones.
@@ -79,9 +79,7 @@ In this project, we utilize three benchmark datasets for evaluating the performa
 
 4. **Testing Set of BSD300**: The BSD300 dataset is an extension of BSD100, consisting of 300 images in total. For our purposes, we use the testing set of BSD300, which comprises 200 images not included in BSD100. This set provides a larger and more diverse collection of images for comprehensive testing and validation of our algorithms.
 
-## Dataset 2
-### Dataset Description
-
+### Dataset 2
 We utilize the DIV2K dataset for evaluating the performance of our image processing algorithms. Below is a detailed description of the dataset:
 
 **DIV2K Dataset**: DIV2K is a high-quality image dataset specifically designed for the task of image super-resolution and other related image processing challenges. It consists of 1,000 diverse, high-resolution images (2K resolution) that are divided into three subsets: a training set with 800 images, a validation set with 100 images, and a test set with another 100 images. The images in the DIV2K dataset cover a wide range of scenes, including natural landscapes, urban environments, and intricate textures, making it a comprehensive benchmark for evaluating super-resolution algorithms.
