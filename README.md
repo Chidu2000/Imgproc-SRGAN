@@ -87,3 +87,8 @@ We utilize the DIV2K dataset for evaluating the performance of our image process
 The DIV2K dataset is renowned for its high-quality images and diversity, providing a robust platform for developing and testing advanced image processing techniques. By using this dataset, researchers and practitioners can assess the effectiveness of their algorithms in enhancing image resolution while maintaining or improving image fidelity. The results obtained on the DIV2K dataset are often considered as a standard benchmark in the field of image super-resolution.
 
 In our research, the DIV2K dataset serves as a crucial tool for validating the performance of our proposed image processing algorithms. By comparing the results on this dataset with those obtained from other benchmarks, we can ensure the competitiveness and generalizability of our methodologies in various real-world scenarios.
+
+### Important Note
+
+**Note:** It is important to ensure that all images used with the SRGAN model are of the same size. In scenarios where images of different sizes are encountered, one can use the `nn.functional.pad()` function from PyTorch to apply padding and make the sizes consistent. Padding ensures uniformity in input dimensions, which is crucial for the proper functioning of the model.
+
